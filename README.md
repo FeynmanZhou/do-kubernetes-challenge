@@ -18,7 +18,7 @@ This guide walks you through the steps of deploying the latest version KubeSpher
 
 A Kubernetes cluster in DO is a prerequisite for installing KubeSphere. Go to your [DO account](https://cloud.digitalocean.com/) and refer to the image below to create a cluster from the navigation menu.
 
-![create-cluster-do](/images/create-cluster-do.png)
+![create-cluster-do](/images/create-cluster-do.jpg)
 
 You need to perform the steps below:
 
@@ -28,7 +28,7 @@ You need to perform the steps below:
 4. Cluster capacity (for example, 3 standard nodes with 2 vCPUs and 4GB of RAM each)
 5. A name for the cluster (for example, *kubesphere-do*)
 
-![config-cluster-do](/images/config-cluster-do.png)
+![config-cluster-do](/images/config-cluster-do.jpg)
 
 
 > Notice
@@ -38,7 +38,7 @@ You need to perform the steps below:
 
 When the cluster is ready, you can download the configuration file for using kubectl to connect DOKS cluster.
 
-![download-config-file](/images/download-config-file.png)
+![download-config-file](/images/download-config-file.jpg)
 
 ## Install KubeSphere on DOKS
 
@@ -107,4 +107,4 @@ After KubeSphere is installed, you can access the web console of KubeSphere by f
 
 - Log in to the console with the default account and password (`admin/P@88w0rd`). In the cluster overview page, you can see the dashboard.
 
-
+  ![kubesphere-dashboard](/images/kubesphere-dashboard.jpg)
